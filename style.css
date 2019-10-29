@@ -1,0 +1,60 @@
+* {
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 25px;
+    color: tomato;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.heading-class {
+    color: blue;
+}
+
+#heading-id {
+    color: yellow;
+}
+
+div h6 {
+    color: green;
+}
+
+/* div>h6 */
+
+section+h6 {
+    color: orange;
+}
+
+/* section~h6 */
+
+div {
+    height: 50px;
+    width: 50px;
+    border: 5px solid black;
+}
+
+#box-sizing-demo {
+    height: 50vh;
+    width: 50vw;
+    border: 5px solid black;
+    box-sizing: border-box;
+    background-image: url("https://i.kym-cdn.com/entries/icons/facebook/000/003/047/omg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#percent-demo {
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+#float-demo {
+    float: right;
+}
